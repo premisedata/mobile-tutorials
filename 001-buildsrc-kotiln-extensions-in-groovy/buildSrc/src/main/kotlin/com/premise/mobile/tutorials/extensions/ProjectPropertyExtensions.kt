@@ -2,7 +2,7 @@ package com.premise.mobile.tutorials.extensions
 
 import org.gradle.api.Project
 
-fun Project.getVersionName(): String? {
+fun Project.getProjectVersionName(): String? {
     val versionName = findProperty("VERSION_NAME")
     return if (versionName is String) versionName else null
 }
