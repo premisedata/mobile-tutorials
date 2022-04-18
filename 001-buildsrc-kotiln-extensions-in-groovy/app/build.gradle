@@ -16,7 +16,7 @@ android {
 
         // Use the Project.getVersionName() extension function (defined in :buildSrc)
         // to set the app version name based on the property located within `gradle.properties`
-        versionName ProjectPropertyExtensionsKt.getVersionName(project)
+        versionName ProjectPropertyExtensionsKt.getProjectVersionName(project)
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
