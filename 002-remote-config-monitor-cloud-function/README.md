@@ -1,0 +1,2 @@
+# Monitoring Changes In Firebase Remote Config Using Kotlin, Slack, and Google Cloud Functions
+This tutorial describes how to monitor changes in Firebase Remote Config using a Google Cloud Function written in Kotlin to send change notifications to Slack.
